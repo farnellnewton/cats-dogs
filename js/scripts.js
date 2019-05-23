@@ -12,17 +12,14 @@ $(document).ready(function() {
     $("ul#webpage").append("<li>Meow!, Ruff!</li>");
   });
   $("button#cats").click(function() {
-    $("#img-cats").removeClass();
     $("#img-cats").toggle();
     $("#img-showing").toggle();
   });
   $("button#dogs").click(function() {
-    $("#img-dogs").removeClass();
     $("#img-dogs").toggle();
     $("#img-showing").toggle();
   });
   $("button#both").click(function() {
-    $("#img-both").removeClass();
     $("#img-both").toggle();
     $("#img-showing").toggle();
   });
