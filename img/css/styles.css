@@ -1,5 +1,13 @@
 .row {
   padding: 10px;
   margin: 15px;
-
+}
+#img-cats {
+  display: none;
+}
+#img-dogs {
+  display: none;
+}
+#img-both{
+  display: none;
 }
